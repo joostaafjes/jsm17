@@ -1,6 +1,6 @@
 {
   "name": "jscream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library build for a JSMonday article.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepare": "npm run test && npm run build",
     "test": "jest --coverage"
   },
   "author": "Michele Riva <ciao@micheleriva.it>",
